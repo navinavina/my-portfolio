@@ -1,0 +1,44 @@
+/* Contact.css */
+.contact {
+    background-image: url('https://img.freepik.com/free-vector/paper-style-white-monochrome-background_23-2149009213.jpg?t=st=1729402632~exp=1729406232~hmac=e51ae1254bb0fd7567271a25353e966a131eba249799d38c0ba1090f4dc81cb2&w=900'); 
+    padding: 50px 20px; /* Padding around the section */
+    min-height: 100vh; /* Full viewport height */
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    flex-direction: column; /* Stack content vertically */
+    text-align: center; /* Center text */
+}
+
+.contact-container {
+    display: flex; /* Use flexbox for contact container */
+    justify-content: center; /* Center the content in the container */
+    align-items: center; /* Align items in the center */
+}
+
+.contact-content {
+    background-color: white; /* White background for the content area */
+    padding: 40px; /* Padding inside the content area */
+    max-width: 600px; /* Maximum width for the card */
+    width: 100%; /* Full width of the container */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.social-icons {
+    display: flex; /* Use flexbox for icon layout */
+    justify-content: center; /* Center icons horizontally */
+    gap: 30px; /* Space between icons */
+    margin-top: 20px; /* Space above icons */
+}
+
+.social-icons img {
+    width: 40px; /* Size of the icons */
+    height: 40px; /* Size of the icons */
+}
+
+.social-icons a {
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Center align icons within links */
+    align-items: center; /* Center align icons within links */
+}

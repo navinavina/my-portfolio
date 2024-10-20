@@ -1,0 +1,62 @@
+.portfolio {
+    background-image: url('https://img.freepik.com/free-vector/paper-style-white-monochrome-background_23-2149009213.jpg?t=st=1729402632~exp=1729406232~hmac=e51ae1254bb0fd7567271a25353e966a131eba249799d38c0ba1090f4dc81cb2&w=900');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.portfolio-content {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    max-width: 900px;
+    width: 100%;
+    text-align: left;
+}
+
+.portfolio-title {
+    margin-top: 0;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column; /* Stack cards vertically */
+    align-items: center; /* Center cards horizontally */
+    margin-top: 20px;
+}
+
+.card {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px 0; /* Space between cards */
+    width: 80%; /* Make cards wider */
+    max-width: 800px; /* Set a maximum width for the cards */
+    text-align: center; /* Center text in cards */
+}
+
+.card h2 {
+    margin-top: 0;
+}
+
+.card a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.card a:hover {
+    background-color: #0056b3;
+}
